@@ -1,0 +1,51 @@
+body {
+    background: #b92e0f;
+    text-align: center;
+    background-repeat: no-repeat;
+}
+
+img {
+    border-radius: 50%;
+    width: 150 ;
+    height: 150 ;
+    
+}
+
+h1 {
+    font-size: 20px;
+    text-shadow: 2px;
+    font-family: 'Oswald',cursive;
+}
+#name {
+ font-family: 'Oswald',cursive;   
+}
+
+p {
+    font-size: 20px
+}
+
+#bio {
+    padding: 20px;
+    font-size: 18;
+    text-align: center;
+}
+.link:hover {
+    background-color: darkred;  
+}
+.link{
+    color: blue;
+    display: inline;
+    padding-top: 5px;
+    padding-left: 9px;
+    padding-bottom: 5px;
+    padding-right: 5px;
+}
+.menu{
+    list-style: none;
+    font-family: cursive;
+    float: right;
+    top: 10px;
+    right: 30px;
+    cursor: pointer;
+    color: chocolate;
+}
